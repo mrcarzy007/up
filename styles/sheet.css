@@ -1,0 +1,24 @@
+.sheet-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+}
+
+.sheet {
+  position: fixed;
+  height: 100vh;
+  width: 280px;
+  background: #fff;
+  top: 0;
+  right: 0;
+  z-index: 50;
+}
+
+.sheet-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 64px;
+}
